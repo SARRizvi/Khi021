@@ -1,0 +1,41 @@
+<!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+<div class="pages" data-swipe="false">
+	<!-- Page, "data-page" contains page name -->
+	<div data-page="login" class="page theme-white layout-dark login-page">
+		<!-- Scrollable page content -->
+		<div class="page-content bg-home">
+			<div class="overlay"></div>
+			<div class="content-block">
+				<div class="text-center text-large">Login</div>
+				<div class="list-block inputs-list">
+					<ul>
+						<li>
+							<div class="item-content">
+								<div class="item-inner">
+									<div class="item-title label"></div>
+									<div class="item-input item-input-field">
+										<input class="" id="user" placeholder="Username" type="text">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-content">
+								<div class="item-inner">
+									<div class="item-title label"></div>
+									<div class="item-input item-input-field">
+										<input class="" id="pwd" placeholder="Password" type="password">
+									</div>
+									<p id="errror" style="text-align: center"></p>
+								</div>
+							</div>
+						</li>	
+					</ul>
+				</div>
+				<p class="buttons-row">
+					<a href="#" onclick="doLogin()" class="no-border-raduis button button-fill color-red">Login</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
